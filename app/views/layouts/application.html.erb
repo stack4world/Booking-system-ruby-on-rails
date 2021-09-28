@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ile de Ré - Réservation et gestion</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    </head>
+
+    <body>
+        <nav class="navbar sticky-top navbar-light bg-faded">
+            <div id="user" class="row justify-content-end pr-3">
+                <auth></auth>
+            </div>
+        </nav>
+        <%= yield %>
+        <%= javascript_include_tag "http://cdn.auth0.com/js/lock-7.11.1.min.js" %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    </body>
+</html>

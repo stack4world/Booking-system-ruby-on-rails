@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+first:
+    user: john_doe
+    start_date: 2017-01-01 08:00:00
+    end_date: 2017-01-01 16:30:00
+
+second:
+    user: john_doe
+    start_date: 2017-02-01 10:30:00
+    end_date: 2017-02-03 18:00:00
+
+third:
+    user: jane_doe
+    start_date: 2017-03-01 13:15:00
+    end_date: 2017-04-01 13:00:00
